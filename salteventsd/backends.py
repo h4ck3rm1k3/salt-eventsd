@@ -71,7 +71,7 @@ class BackendMngr(object):
                 log.info(plugin_class)
                 self.backends[name] = plugin_class
             else:
-                log.error("'{0}' found but class '{1}' not found in" + \
+                log.error("'{0}' found but class '{1}' not found in"
                           "file.".format(filename, name))
 
         except ImportError, i:
