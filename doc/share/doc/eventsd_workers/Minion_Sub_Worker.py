@@ -122,7 +122,7 @@ class Minion_Sub_Worker(object):
                 elif src_data['id'].startswith('xh'):
                     tgt_table = 'xh'
                 else:
-                    raise Exception, "no table for minion-event-data found"
+                    raise Exception("no table for minion-event-data found")
 
             # the data to format the query with. it is IMPORTANT
             # that the ORDER AND COUNT of the variables is preserved
